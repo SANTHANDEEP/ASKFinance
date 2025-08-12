@@ -32,6 +32,12 @@
         .metric-card {
             background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
             border: 2px solid #e5e7eb;
+            transition: all 0.3s ease;
+        }
+        
+        .metric-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
         }
         
         .feature-icon {
@@ -52,6 +58,11 @@
             padding: 1.5rem;
             border-radius: 12px;
             text-align: center;
+            transition: transform 0.3s ease;
+        }
+        
+        .success-metric:hover {
+            transform: scale(1.05);
         }
         
         .outcome-card {
@@ -60,6 +71,13 @@
             border-radius: 16px;
             padding: 2rem;
             text-align: center;
+            transition: all 0.3s ease;
+        }
+        
+        .outcome-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+            border-color: #3b82f6;
         }
         
         .big-number {
